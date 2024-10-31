@@ -1,0 +1,236 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Posts 2 Posts Relationships\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-06 16:37+0000\n"
+"PO-Revision-Date: 2021-07-13 13:51+0000\n"
+"Last-Translator: \n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.0; wp-5.7.2\n"
+"X-Domain: p2p-relationships"
+
+#: inc/admin_pane.php:266
+#, php-format
+msgid "%s box configuration"
+msgstr "Configuración de la caja %s"
+
+#: inc/admin_pane.php:312
+msgid "Add a search text"
+msgstr "Añade una búsqueda de texto"
+
+#: inc/admin_pane.php:321
+msgid "Add a taxonomy filter"
+msgstr "Añade un filtro de taxonomía"
+
+#: inc/print_meta_box_edit.php:164
+msgid "Add selected"
+msgstr "Añadir seleccionados"
+
+#: inc/admin_pane.php:291
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: inc/admin_pane.php:272
+msgid "At least one of the two must be \"Editable\""
+msgstr "Como mínimo uno de los dos debe ser \"Editable\""
+
+#: inc/admin_pane.php:284
+msgid "Box position"
+msgstr "Posición de la caja"
+
+#: inc/admin_pane.php:297
+msgid "Box priority"
+msgstr "Prioridad de la caja"
+
+#: inc/admin_pane.php:137 inc/admin_pane.php:211
+msgid "Box title"
+msgstr "Título de la caja"
+
+#: inc/admin_pane.php:73
+msgid "Changes not saved. Please, solve it and click Save again."
+msgstr ""
+"Los cambios no han sido guardados. Por favor, resuélvelo y haz click en "
+"Guardar de nuevo."
+
+#: inc/admin_pane.php:298
+msgid "Control box order in EDIT page"
+msgstr "Controla el orden de las cajas en la pantalla de EDICIÓN"
+
+#: inc/admin_pane.php:201
+msgid "Delete"
+msgstr "Elimina"
+
+#: inc/admin_pane.php:197
+msgid "Duplicate"
+msgstr "Duplica"
+
+#: inc/admin_pane.php:196
+msgid "Edit"
+msgstr "Edita"
+
+#: inc/admin_pane.php:276
+msgid "Editable"
+msgstr "Editable"
+
+#. Description of the plugin
+msgid ""
+"Efficient many-to-many connections between posts, pages and custom post "
+"types."
+msgstr ""
+"Conexiones eficientes muchos-a-muchos entre posts, páginas y custom post "
+"types."
+
+#: inc/admin_pane.php:199
+msgid "Erase relationships"
+msgstr ""
+
+#: inc/admin_pane.php:75 inc/admin_pane.php:119
+#, php-format
+msgid "Error(s) on \"%s\":"
+msgstr ""
+
+#: inc/print_meta_box_edit.php:83
+msgid "Filter by taxonomy"
+msgstr ""
+
+#: inc/print_meta_box_edit.php:79
+msgid "Filter by type"
+msgstr ""
+
+#: inc/admin_pane.php:311 inc/admin_pane.php:320
+msgid "Filters"
+msgstr ""
+
+#: inc/admin_pane.php:236 inc/admin_pane.php:240
+msgid "From"
+msgstr ""
+
+#: inc/admin_pane.php:278
+msgid "Hidden"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.wp-centrics.com"
+msgstr ""
+
+#: inc/admin_pane.php:138 inc/admin_pane.php:220
+msgctxt "Maybe better leave in english"
+msgid "Key"
+msgstr ""
+
+#: inc/admin_pane.php:117
+msgid ""
+"Maybe you're downgraded Posts 2 Posts Relationships?, please, check it. Any "
+"change on this settings can result in data loss."
+msgstr ""
+
+#: inc/admin_pane.php:163
+msgid "New Relation"
+msgstr ""
+
+#: posts-2-posts-relationships.php:725
+msgid "No results"
+msgstr ""
+
+#: inc/admin_pane.php:289
+msgid "Normal"
+msgstr ""
+
+#: inc/admin_pane.php:247
+msgid "Object"
+msgstr ""
+
+#: inc/admin_pane.php:136
+msgid "Order"
+msgstr ""
+
+#. Name of the plugin
+msgid "Posts 2 Posts Relationships"
+msgstr ""
+
+#: inc/print_meta_box_edit.php:165
+msgid "Remove selected"
+msgstr ""
+
+#: inc/admin_pane.php:167
+msgid "Save Changes"
+msgstr ""
+
+#: inc/admin_pane.php:315
+msgid "Search text box"
+msgstr ""
+
+#: inc/print_meta_box_edit.php:73
+msgid "Search..."
+msgstr ""
+
+#: inc/print_meta_box_edit.php:162
+msgid "Select all"
+msgstr ""
+
+#: inc/admin_pane.php:248
+msgid "Select one or more post type"
+msgstr ""
+
+#: inc/admin_pane.php:93
+msgid "Settings saved."
+msgstr ""
+
+#: inc/admin_pane.php:290
+msgid "Side"
+msgstr ""
+
+#: inc/admin_pane.php:221
+msgid "Single word, no spaces. Underscores and dashes allowed"
+msgstr ""
+
+#: inc/admin_pane.php:267
+#, php-format
+msgid "The %s box will be displayed on %s edit page:"
+msgstr ""
+
+#: inc/print_meta_box_view.php:86 inc/print_meta_box_edit.php:93
+msgid "There are no relationships yet"
+msgstr ""
+
+#: inc/admin_pane.php:160
+msgid "There is currently no relationship for now. Start by adding a new one."
+msgstr ""
+
+#: inc/admin_pane.php:72 inc/admin_pane.php:116
+msgid "There is errors on current settings."
+msgstr ""
+
+#: inc/admin_pane.php:212
+msgid "This is the title of the relation box on EDIT pages"
+msgstr ""
+
+#: inc/admin_pane.php:237 inc/admin_pane.php:239
+msgid "To"
+msgstr ""
+
+#: inc/admin_pane.php:271
+msgid "UI Mode"
+msgstr ""
+
+#: inc/print_meta_box_edit.php:163
+msgid "Unselect all"
+msgstr ""
+
+#: inc/admin_pane.php:277
+msgid "View only"
+msgstr ""
+
+#: inc/admin_pane.php:285
+msgid "Where should appear? Main column or sidebar?"
+msgstr ""
+
+#. Author of the plugin
+msgid "wpcentrics"
+msgstr ""

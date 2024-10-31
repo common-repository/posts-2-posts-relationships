@@ -1,0 +1,415 @@
+/***********************************
+	Admin Plugin Settings
+ ***********************************/
+
+#p2p-rel-relationship-list {
+	border: #ccd0d4 solid 1px;
+	border-bottom: 0;
+	background: #fff;
+	max-width: 1200px;
+	margin: 20px 0;
+}
+
+	#p2p-rel-relationship-list ul,
+	#p2p-rel-relationship-list li {
+		margin: 0;
+	}
+	#p2p-rel-relationship-list .no_relations {
+		padding: 20px;
+		color: #666;
+		font-size: 1.1em;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.p2p-rel-header {
+		display: flex;
+		padding: 10px 15px;
+		border-bottom: #ccd0d4 solid 1px;
+	}
+		li.open .p2p-rel-header {
+			background: #2a9bd9;
+			color: #fff;
+			padding: 11px 16px;
+			margin-left:-1px;
+			margin-top:-1px;
+			margin-right:-1px;
+			border-bottom: 0;
+		}
+		li.open.error .p2p-rel-header {
+			background: #d63638;
+		}
+		
+		li.open .p2p-rel-header a {
+			color: #fff;
+		}
+		
+		.p2p-rel-header .icon {
+			width: 26px;
+			height: 26px;
+			line-height: 26px;
+			border-radius: 50%;
+			border: #b5bcc2 1px solid;
+			display: block;
+			text-align: center;
+			font-size: 1.1em;
+			cursor: move;
+		}
+			li.open .p2p-rel-header .icon {
+				background: #fff;
+				color: #1d2327;
+			}
+		.p2p-rel-header.main {
+			font-weight: bold;
+			font-size: 1.1em;
+		}
+		.p2p-rel-header .order {
+			width: 150px;
+		}
+		.p2p-rel-header .label {
+			flex: 1;
+		}
+		.p2p-rel-header .name {
+			width: 25%;
+		}
+		.p2p-rel-header .rel {
+			width: 50px;
+			text-align: right;
+			padding-right: 7px;
+			box-sizing: border-box;
+		}
+		.p2p-rel-header.main .rel {
+			padding-right: 0;
+		}
+		.p2p-rel-title {
+			font-weight: bold;
+			text-decoration: none;
+			font-size: 1.1em;
+		}
+		.error .p2p-rel-title {
+			color: #d63638;
+		}
+		
+		.p2p-rel-header .row-options {
+			padding-top: 1px;
+			visibility: hidden;
+			font-size: 13px;
+		}
+		.p2p-rel-header:hover .row-options {
+			visibility:visible;
+		}
+		.p2p-rel-header .row-options a {
+			margin-right: 5px;
+			text-decoration: none;
+		}
+		.p2p-rel-header .row-options a:hover {
+			text-decoration: underline;
+		}
+		.p2p-rel-header .row-options a.red {
+			color: #d00;
+		}
+		li.open .p2p-rel-header .row-options a.red {
+			color: #fff;
+		}
+		
+	.p2p-rel-body {
+		display: none;
+	}
+		li.open .p2p-rel-body {
+			display: block;
+			border: #2a9bd9 2px solid;
+			margin-left: -1px;
+			margin-right: -1px;
+		}
+		li.open.error .p2p-rel-body {
+			border-color: #d63638;
+		}
+
+	.p2p-rel-section {
+		display: flex;
+		border-bottom: #ccd0d4 solid 1px;
+	}
+		.p2p-rel-section .p2p-rel-label {
+			background: #F9F9F9;
+			padding: 10px 15px;
+			border-right: #eee solid 1px;
+			width: 180px;
+		}
+			.p2p-rel-head_section p.subtitle,
+			.p2p-rel-section .p2p-rel-label label {
+				display: block;
+				font-weight: bold;
+				margin: 0 0 3px;
+				padding: 0;
+			}
+			.p2p-rel-head_section p.subtitle {
+				margin-top: 20px;
+			}
+			.p2p-rel-head_section p.description {
+				margin-bottom: 12px;
+			}
+			.p2p-rel-section .p2p-rel-label p.description {
+				margin: 0;
+				padding: 0;
+			}
+		.p2p-rel-section .p2p-rel-field {
+			padding: 15px 15px;
+			flex: 1;
+			position: relative;
+		}
+			.p2p-rel-section .p2p-rel-field input[type="text"] {
+				width: 100%;
+			}
+			.p2p-rel-section .p2p-rel-field select {
+				min-width: 50%;
+			}
+			
+	.p2p-rel-two_cols {
+		display: flex;
+	}
+		.p2p-rel-two_cols .p2p-rel-col {
+			width: 50%;
+		}
+		.p2p-rel-two_cols .p2p-rel-col:first-child {
+			border-right: #ccd0d4 solid 2px;
+		}
+	
+	.p2p-rel-head_section {
+		border-top: #ccd0d4 solid 1px;
+		border-bottom: #ccd0d4 solid 1px;
+		padding: 0 15px;
+	}
+		.p2p-rel-head_section h2 {
+			margin: 1.3em 0 0.75em;
+		}
+
+	#p2p-rel-relationship-list .buttons {
+		background: #f5f5f5;
+		padding: 10px 15px;
+		text-align: right;
+		border-bottom: #ccd0d4 solid 1px;
+	}
+	#p2p-rel-relationship-list .button .dashicons {
+		vertical-align: text-top;
+	}
+	#p2p-rel-relationship-list .white {
+		background: #fff;
+	}
+	#p2p-rel-relationship-list .select2-container {
+		width: 100% !important;
+	}
+	.p2p-rel-dialog {
+	    border: #099 2px solid;
+		padding: 15px 35px 20px;
+		margin: 20px;
+		background: #dff;
+		color: #033;
+	}
+		.p2p-rel-dialog p.big {
+			font-size: 1.2em;
+		}
+		.p2p-rel-dialog li {
+			font-size: 1.1em;
+			margin-bottom: 1em;
+			padding-left: 3em;
+		}
+		.p2p-rel-dialog a {
+			color: #066;
+			text-decoration: none;
+		}
+		.p2p-rel-dialog a:hover {
+			text-decoration: underline;
+		}
+	#p2p-rel-relationship-list .disabled_field {
+		position: relative;
+	}
+	#p2p-rel-relationship-list .disabled_field::before {
+		position: absolute;
+		left: 0; top: 0;
+		right: 0; bottom: 0;
+		z-index: 1000;
+		background: rgba(255,255,255,0.75);
+		content: ' ';
+		display: block;
+	}
+	
+.p2p-relationship-empty {
+	display: none;
+}
+
+div.error.p2p-relatioship h3 {
+	font-size: 1.1em;
+	padding-left: 20px;
+}
+div.error.p2p-relatioship ul {
+	padding-left: 40px;
+}
+
+#p2p-rel-orphans .p2p-rel-erase-orphan {
+	margin-left: 15px;
+	text-decoration: none;
+	color: #888;
+}
+#p2p-rel-orphans .p2p-rel-erase-orphan:hover {
+	text-decoration: underline;
+	color: #d00;
+}
+#p2p-rel-orphans p,
+#p2p-rel-orphans li {
+	font-size: 1.1em;
+}
+
+@media only screen and (max-width: 1100px) {
+
+	.p2p-rel-two_cols {
+		display: block;
+	}
+		.p2p-rel-two_cols .p2p-rel-col {
+			width: auto;
+		}
+		.p2p-rel-two_cols .p2p-rel-col:first-child {
+			border-right: 0;
+		}
+}
+
+/***********************************
+	Admin Metaboxes 
+ ***********************************/
+
+div.p2p-relationships-wrapper {
+	margin-top: 13px;
+}
+div.p2p-relationships-wrapper .filters {
+	display: flex;
+	align-items: center;
+	border: #c3c4c7 1px solid;
+	border-bottom: 0;
+}
+div.p2p-relationships-wrapper .filters .left,
+div.p2p-relationships-wrapper .filters .right {
+	width: 50%;
+	padding: 0;
+}
+div.p2p-relationships-wrapper .filters .left input {
+	padding :10px 15px;
+	box-sizing: border-box;
+	border: 0;
+	width: 100%;
+	border-radius: 0;
+	display: block;
+	margin: 0;
+}
+div.p2p-relationships-wrapper .filters .left input:focus {
+	box-shadow: none;
+	background: #e0faff;
+}
+div.p2p-relationships-wrapper .filters .right {
+	text-align: right;
+	padding-right: 0;
+}
+div.p2p-relationships-wrapper .filters .right select {
+	margin-right: 10px;
+}
+
+div.p2p-relationships-wrapper .two_cols {
+	display: flex;
+}
+div.p2p-relationships-chooser,
+div.p2p-relationships-selected {
+	border: #c3c4c7 1px solid;
+	padding: 0px 10px;
+	overflow: auto;
+	max-height: 300px;
+}
+.edit div.p2p-relationships-chooser,
+.edit div.p2p-relationships-selected {
+	height: 300px;
+}
+.two_cols div.p2p-relationships-chooser {
+	width: 50%;
+}
+.two_cols div.p2p-relationships-selected {
+	width: 50%;
+	border-left: 0;
+}
+
+div.p2p-relationships-chooser li,
+div.p2p-relationships-selected li {
+	margin: 0;
+	padding: 5px 10px;
+}
+
+div.p2p-relationships-chooser li.active {
+	background: #eee;
+}
+div.p2p-relationships-chooser li:nth-child(even).active {
+	background: #f6f6f6;
+}
+.edit div.p2p-relationships-selected li:hover,
+div.p2p-relationships-chooser li:hover {
+	background: #e0faff;
+}
+.edit div.p2p-relationships-selected .sortable li {
+	cursor: move;
+}
+
+div.p2p-relationships-chooser li.active:hover {
+	background: #b9f3ff;
+}
+
+div.p2p-relationships-chooser li .add,
+div.p2p-relationships-chooser li .remove,
+div.p2p-relationships-selected li .remove {
+	float: right;
+	font-size: 1.3em;
+	text-decoration: none;
+	color: #777;
+	opacity: 0.3;
+}
+
+div.p2p-relationships-selected .err_deleted {
+	font-weight: bold;
+	color: #d00;
+}
+div.p2p-relationships-selected .status_trash {
+	font-weight: bold;
+	opacity: 0.5;
+}
+
+/* add / remove visibility */
+div.p2p-relationships-chooser .add,
+div.p2p-relationships-chooser .remove {
+	display: none;
+}
+div.p2p-relationships-chooser li.active .remove {
+	display: inline-block;
+}
+div.p2p-relationships-chooser li.passive .add {
+	display: inline-block;
+}
+div.p2p-relationships-selected li:hover .remove,
+div.p2p-relationships-chooser li.active:hover .remove,
+div.p2p-relationships-chooser li.passive:hover .add {
+	display: inline-block;
+	opacity: 1;
+}
+
+/* buttons */
+
+div.p2p-relationships-wrapper .buttons {
+	display: flex;
+	align-items: center;
+	border: #c3c4c7 1px solid;
+	border-top: 0;
+	padding: 10px 8px;
+}
+div.p2p-relationships-wrapper .buttons .dashicons {
+	vertical-align: middle;
+}
+div.p2p-relationships-wrapper .unselect_all .dashicons {
+	color: #999;
+}
+div.p2p-relationships-wrapper .buttons a {
+	margin: 0 2px;
+	background: #fff;
+}
